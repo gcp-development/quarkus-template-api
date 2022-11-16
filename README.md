@@ -28,10 +28,10 @@ If a resource is related to another resource using subresources.
 HTTP methods used by most RESTful web APIs are:<br>
 <ul>
    <li>GET - retrieves a representation of the resource at the specified URI. The body of the response message contains the details of the requested resource.</li>
-   <li>POST creates a new resource at the specified URI. The body of the request message provides the details of the new resource. Note that POST can also be used to trigger operations that don't actually create resources.</li>
-   <li>PUT either creates or replaces the resource at the specified URI. The body of the request message specifies the resource to be created or updated.</li>
-   <li>PATCH performs a partial update of a resource. The request body specifies the set of changes to apply to the resource.</li>
-   <li>DELETE removes the resource at the specified URI.</li>
+   <li>POST - creates a new resource at the specified URI. The body of the request message provides the details of the new resource. Note that POST can also be used to trigger operations that don't actually create resources.</li>
+   <li>PUT - either creates or replaces the resource at the specified URI. The body of the request message specifies the resource to be created or updated.</li>
+   <li>PATCH  - performs a partial update of a resource. The request body specifies the set of changes to apply to the resource.</li>
+   <li>DELETE - removes the resource at the specified URI.</li>
 </ul>
 <h4>6) HTTP response status codes.</h4>
 When the client raises a request to the server through an API, the client should know the feedback, whether it failed, passed or the request was wrong.
