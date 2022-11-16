@@ -35,5 +35,33 @@ HTTP methods used by most RESTful web APIs are:<br>
    <li>DELETE removes the resource at the specified URI.</li>
 </ul>
 
+<h4>6)HTTP response status codes.</h4>
+When the client raises a request to the server through an API, the client should know the feedback, whether it failed, passed or the request was wrong.
+The following are the important categorization of HTTP codes:<br>
+<ul>
+   <li>2xx (Success category) These status codes represent that the requested action was received and successfully processed by the server.</li>
+   <ul>
+      <li>200 Ok The standard HTTP response representing success for GET, PUT or POST.</li>
+      <li>201 Created This status code should be returned whenever the new instance is created. E.g on creating a new instance, using POST method, should always return 201 status code.</li>
+      <li>204 No Content represents the request is successfully processed but has not returned any content.DELETE can be a good example of this.</li>
+   </ul>
+   <li>3xx (Redirection Category)</li>
+   <ul>
+      <li>304 Not Modified indicates that the client has the response already in its cache. And hence there is no need to transfer the same data again.</li>
+   </ul>
+   <li>4xx (Client Error Category) These status codes represent that the client has raised a faulty request.</li>
+   <ul>
+      <li>400 Bad Request indicates that the request by the client was not processed, as the server could not understand what the client is asking for.</li>
+      <li>401 Unauthorized indicates that the client is not allowed to access resources, and should re-request with the required credentials.</li>
+      <li>403 Forbidden indicates that the request is valid and the client is authenticated, but the client is not allowed access the page or resource for any reason.</li>
+      <li>404 Not Found indicates that the requested resource is not available now.</li>
+      <li>410 Gone indicates that the requested resource is no longer available which has been intentionally moved.<li>
+   </ul>
+   <li>5xx (Server Error Category)</li>
+   <ul>
+      <li>500 Internal Server Error indicates that the request is valid, but the server is totally confused and the server is asked to serve some unexpected condition.</li>
+      <li>503 Service Unavailable indicates that the server is down or unavailable to receive and process the request. Mostly if the server is undergoing maintenance.</li>
+
+
 
 
