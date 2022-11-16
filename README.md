@@ -18,3 +18,10 @@ Both client and server, need to know which format is used for the communication.
 <h4>3)GET method and query parameters should not alter the state.</h4>
 Use PUT, POST and DELETE methods instead of the GET method to alter the state. Do not use GET for state changes. GET should be idempotent.
 (Idempotent-property of certain operations whereby they can be applied multiple times without changing the result beyond the initial application.)
+
+<h4>3)Use sub-resources for relations.</h4>
+If a resource is related to another resource using subresources.
+<ul>
+   <li>GET /orders/49/products/ Returns a list of products for order 49.</li>
+   <li>GET /orders/49/products/2 Returns product id 2 for order 49.</li>
+
