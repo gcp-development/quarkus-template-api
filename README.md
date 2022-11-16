@@ -4,8 +4,8 @@ Context
 
 Define a common set of guidelines for Europe for Restful API design.
 
-1) Use nouns for resource identification.
-   For an easy understanding we should use this structure for every resource:
+1) Use nouns for resource identification.<br>
+   For an easy understanding we should use this structure for every resource:<br>
    GET - /orders - Returns a list of orders.
    GET - orders/59 - Returns a specific order, with the id 59.
    POST - /orders - Create a new order.
