@@ -1,8 +1,4 @@
-##Restful API design guidelines
-
-Context
-
-Define a common set of guidelines for Europe for Restful API design.
+## Restful API design guidelines
 
 <h4>1) Use nouns for resource identification.</h4>
    For an easy understanding we should use this structure for every resource:<br>
