@@ -21,8 +21,8 @@ Use PUT, POST and DELETE methods instead of the GET method to alter the state. D
 <h4>4) Use sub-resources for relations.</h4>
 If a resource is related to another resource using subresources.
 <ul>
-   <li>GET /orders/49/products/ Returns a list of products for order 49.</li>
-   <li>GET /orders/49/products/2 Returns product id 2 for order 49.</li>
+   <li>GET - /orders/49/products/ Returns a list of products for order 49.</li>
+   <li>GET - /orders/49/products/2 Returns product id 2 for order 49.</li>
 </ul>
 <h4>5) Use proper HTTP methods (verbs).</h4>
 HTTP methods used by most RESTful web APIs are:<br>
