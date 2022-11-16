@@ -61,7 +61,8 @@ The following are the important categorization of HTTP codes:<br>
    <ul>
       <li>500 Internal Server Error indicates that the request is valid, but the server is totally confused and the server is asked to serve some unexpected condition.</li>
       <li>503 Service Unavailable indicates that the server is down or unavailable to receive and process the request. Mostly if the server is undergoing maintenance.</li>
-
+   </ul>
+   </ul>
 
 
 
