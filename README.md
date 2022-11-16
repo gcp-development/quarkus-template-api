@@ -53,7 +53,7 @@ The following are the important categorization of HTTP codes:<br>
       <li>401 Unauthorized indicates that the client is not allowed to access resources, and should re-request with the required credentials.</li>
       <li>403 Forbidden indicates that the request is valid and the client is authenticated, but the client is not allowed access the page or resource for any reason.</li>
       <li>404 Not Found indicates that the requested resource is not available now.</li>
-      <li>410 Gone indicates that the requested resource is no longer available which has been intentionally moved.<li>
+      <li>410 Gone indicates that the requested resource is no longer available which has been intentionally moved.</li>
    </ul>
    <li>5xx (Server Error Category)</li>
    <ul>
