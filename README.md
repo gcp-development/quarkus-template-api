@@ -94,3 +94,7 @@ Example:
     } ]
 }
 ```
+
+This response not only has the product’s name but includes the self-linking URL where that resource is located.
+rel means relationship. In this case, it’s a self-referencing hyperlink. For example, an order might have a “rel”:”customer” relationship, linking the order to its customer.
+href is a complete URL that uniquely defines the resource.
