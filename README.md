@@ -10,7 +10,7 @@ Why Quarkus?
 </ul>
 
 
-[User Stories[]https://quarkus.io/blog/tag/user-story/
+
 [Building an application into a native image](https://quarkus.io/guides/building-native-image)
 [Kafka dev services](https://quarkus.io/guides/kafka-dev-services)
 [Dev Services for databases](https://quarkus.io/guides/datasource#dev-services-configuration-free-databases)
@@ -155,3 +155,4 @@ References:<br>
 [REST API Tutorial](https://restfulapi.net/)<br>
 [Best Practices in API Design](https://swagger.io/blog/api-design/api-design-best-practices/)<br>
 [Best Practices in API Documentation](https://swagger.io/blog/api-documentation/best-practices-in-api-documentation/)<br>
+[Quarkus User Stories](https://quarkus.io/blog/tag/user-story/)<br>
