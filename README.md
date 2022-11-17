@@ -83,6 +83,7 @@ We are using the URL for the API versioning starting with the letter "v".
 Hypermedia as the Engine of Application State is a principle that hypertext links should be used to create a better navigation through the API.
 A hypermedia-driven site provides information to navigate the site’s REST interfaces dynamically by including hypermedia links with the responses.
 Example:
+
 ``bash
 {
     "id": "1",
