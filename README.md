@@ -61,3 +61,9 @@ The following are the important categorization of HTTP codes:<br>
       <li>503 Service Unavailable indicates that the server is down or unavailable to receive and process the request. Mostly if the server is undergoing maintenance.</li>
    </ul>
  </ul>
+ 
+<h4>7) Field name casing convention.</h4>
+
+[camelCase](https://web.archive.org/web/20080411055228/http://www2.tech.purdue.edu/cit/Courses/CPT355/C_Sharp_Coding_Standards_and_Guidelines.asp) we need to make sure it is consistent across the application.
+
+
