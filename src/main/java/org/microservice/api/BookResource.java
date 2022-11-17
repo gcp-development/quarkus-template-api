@@ -4,12 +4,13 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.*;
 import java.net.URI;
 import java.util.*;
+import javax.json.JsonArray;
 import javax.inject.Inject;
 
 @Path("/books")
 public class BookResource {
     private static Map<Integer, org.microservice.model.v1.Book> library = new HashMap<Integer, org.microservice.model.v1.Book>();
-
+    // Collection<String[]>,
     @GET
     @Path("/enhancedmediatype")
     @Produces("application/org.microservice.api.v1.book+json;qs=0.5")
@@ -72,6 +73,29 @@ public class BookResource {
         library.put(createdEmployeeId, book);
         builder = uriInfo.getAbsolutePathBuilder();
         createdURI = builder.path(Integer.toString(createdEmployeeId)).build();
+        return Response.created(createdURI).build();
+    }
+
+    @POST
+    @Path("/bulk")
+    @Consumes({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+    public Response addBook(ArrayList<org.microservice.model.v1.Book> books, @Context UriInfo uriInfo) {
+        UriBuilder builder;
+        URI createdURI;
+        createdURI = null;
+        for (org.microservice.model.v1.Book book : books) {
+            if (book.getId() != 0) {
+                return Response.status(400).build();
+            }
+            int createdEmployeeId = 1;
+            if (!library.isEmpty()) {
+                createdEmployeeId = Collections.max(library.keySet()) + 1;
+            }
+            book.setId(createdEmployeeId);
+            library.put(createdEmployeeId, book);
+            builder = uriInfo.getAbsolutePathBuilder();
+            createdURI = builder.path(Integer.toString(createdEmployeeId)).build();
+        }
         return Response.created(createdURI).build();
     }
 

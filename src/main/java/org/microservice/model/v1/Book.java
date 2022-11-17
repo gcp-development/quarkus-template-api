@@ -1,8 +1,9 @@
 package org.microservice.model.v1;
 
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-@XmlRootElement
+import javax.xml.bind.annotation.*;
+
+@XmlRootElement()
+@XmlType(name="book.v1")
 public class Book {
     private int id;
     private String title;
