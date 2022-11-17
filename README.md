@@ -10,13 +10,14 @@ Why Quarkus?
 </ul>
 
 Essential Guides:<br>
-[Building an application into a native image](https://quarkus.io/guides/building-native-image)<br>
-[Kafka dev services](https://quarkus.io/guides/kafka-dev-services)<br>
-[Dev Services for databases](https://quarkus.io/guides/datasource#dev-services-configuration-free-databases)<br>
-[Redis dev services](https://quarkus.io/guides/redis-dev-services)<br>
-[AMQP dev services](https://quarkus.io/guides/amqp-dev-services)<br>
-[Dev Services for OpenID Connect](https://quarkus.io/guides/security-openid-connect-dev-services)<br>
-
+<ul>
+   <li>[Building an application into a native image](https://quarkus.io/guides/building-native-image)</li>
+   <li>[Kafka dev services](https://quarkus.io/guides/kafka-dev-services)</li>
+   <li>[Dev Services for databases](https://quarkus.io/guides/datasource#dev-services-configuration-free-databases)</li>
+   <li>[Redis dev services](https://quarkus.io/guides/redis-dev-services)</li>
+   <li>[AMQP dev services](https://quarkus.io/guides/amqp-dev-services)</li>
+   <li>[Dev Services for OpenID Connect](https://quarkus.io/guides/security-openid-connect-dev-services)</li>
+</ul>
 <hr>
 
 ## Restful API design guidelines
