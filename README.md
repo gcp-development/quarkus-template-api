@@ -5,8 +5,8 @@ Quarkus is a Kubernetes-native Java framework tailored for GraalVM and HotSpot, 
 
 Why Quarkus?
 <ul>
-<li>Quarkus was designed around [Kubernetes-native](https://quarkus.io/kubernetes-native/) philosophies, optimizing for low memory usage and fast startup times.</li>
-<li>Quarkus was born in the reactive era. Quarkus, at its core, is based on a fully reactive and non-blocking architecture powered by [Eclipse Vert.x](https://vertx.io/). </li>
+<li>Quarkus was designed around <a href="https://quarkus.io/kubernetes-native/" target="_blank">Kubernetes-native</a> philosophies, optimizing for low memory usage and fast startup times.</li>
+<li>Quarkus, at its core, is based on a fully reactive and non-blocking architecture powered by <a href="https://vertx.io/" target="_blank">Eclipse Vert.x</a>.</li>
 </ul>
 
 
