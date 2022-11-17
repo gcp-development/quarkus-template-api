@@ -128,8 +128,8 @@ https://api.org.com/v1/orders/89
 ```
 <hr>
 
-References:
-[Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html)
-[REST API Tutorial](https://restfulapi.net/)
-[Best Practices in API Design](https://swagger.io/blog/api-design/api-design-best-practices/)
-[Best Practices in API Documentation](https://swagger.io/blog/api-documentation/best-practices-in-api-documentation/)
+References:<br>
+[Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html)<br>
+[REST API Tutorial](https://restfulapi.net/)<br>
+[Best Practices in API Design](https://swagger.io/blog/api-design/api-design-best-practices/)<br>
+[Best Practices in API Documentation](https://swagger.io/blog/api-documentation/best-practices-in-api-documentation/)<br>
