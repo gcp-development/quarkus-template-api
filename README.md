@@ -82,6 +82,7 @@ We are using the URL for the API versioning starting with the letter "v".
 <h4>10) Provide link for navigating through your API(HATEOAS)</h4>
 Hypermedia as the Engine of Application State is a principle that hypertext links should be used to create a better navigation through the API.
 A hypermedia-driven site provides information to navigate the site’s REST interfaces dynamically by including hypermedia links with the responses.
+
 Example:
 
 ```bash
@@ -98,3 +99,10 @@ Example:
 This response not only has the product’s name but includes the self-linking URL where that resource is located.
 rel means relationship. In this case, it’s a self-referencing hyperlink. For example, an order might have a “rel”:”customer” relationship, linking the order to its customer.
 href is a complete URL that uniquely defines the resource.
+
+
+
+    Handling ERROR JSON.
+    We should always return the error message in its own set of field. A JSON error body should provide a few things for the developer – a useful error message, a unique error code and possibly a detailed description.
+    Example:
+
