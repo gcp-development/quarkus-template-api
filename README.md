@@ -78,3 +78,18 @@ All of these actions are simply the query on one dataset. There will be no new s
 <h4>9) Versioning.</h4>
 The API Version is mandatory and we should not release an unversioned API. Use a simple ordinal number and avoid dot notation such as 1.2.
 We are using the URL for the API versioning starting with the letter "v".
+
+<h4>10) Provide link for navigating through your API(HATEOAS)</h4>
+Hypermedia as the Engine of Application State is a principle that hypertext links should be used to create a better navigation through the API.
+A hypermedia-driven site provides information to navigate the site’s REST interfaces dynamically by including hypermedia links with the responses.
+Example:
+``bash
+{
+    "id": "1",
+    "name": "Coffee Pot",
+    "links": [ {
+        "rel": "self",
+        "href": "http://localhost:8080/product/1"
+    } ]
+}
+```
