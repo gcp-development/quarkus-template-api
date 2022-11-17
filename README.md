@@ -22,8 +22,26 @@ Essential Guides:<br>
 </ul>
 <hr>
 
-## Postman
+## Testing the Rest API with Postman
 
+URL address
+
+```bash
+http://localhost:8080/books
+```
+Headers
+
+Content-Type
+```bash
+application/json
+```
+
+Accept
+```bash
+application/json
+```
+
+Body
 ```bash
 {"id": 0,"title":"Moby Dick","author":"Herman Melville"}
 ```
