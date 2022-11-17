@@ -84,7 +84,7 @@ Hypermedia as the Engine of Application State is a principle that hypertext link
 A hypermedia-driven site provides information to navigate the site’s REST interfaces dynamically by including hypermedia links with the responses.
 Example:
 
-``bash
+```bash
 {
     "id": "1",
     "name": "Coffee Pot",
