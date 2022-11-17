@@ -11,12 +11,12 @@ Why Quarkus?
 
 
 
-[Building an application into a native image](https://quarkus.io/guides/building-native-image)
-[Kafka dev services](https://quarkus.io/guides/kafka-dev-services)
-[Dev Services for databases](https://quarkus.io/guides/datasource#dev-services-configuration-free-databases)
-[Redis dev services](https://quarkus.io/guides/redis-dev-services)
-[AMQP dev services](https://quarkus.io/guides/amqp-dev-services)
-[Dev Services for OpenID Connect](https://quarkus.io/guides/security-openid-connect-dev-services)
+[Building an application into a native image](https://quarkus.io/guides/building-native-image)<br>
+[Kafka dev services](https://quarkus.io/guides/kafka-dev-services)<br>
+[Dev Services for databases](https://quarkus.io/guides/datasource#dev-services-configuration-free-databases)<br>
+[Redis dev services](https://quarkus.io/guides/redis-dev-services)<br>
+[AMQP dev services](https://quarkus.io/guides/amqp-dev-services)<br>
+[Dev Services for OpenID Connect](https://quarkus.io/guides/security-openid-connect-dev-services)<br>
 
 <hr>
 
