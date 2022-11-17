@@ -74,3 +74,7 @@ All of these actions are simply the query on one dataset. There will be no new s
    <li>Searching - When searching for the orders name in orders list the API endpoint should be GET /orders?search=special.</li>
    <li>Pagination - When the dataset is too large, we divide the data set into smaller chunks, which helps in improving the performance and is easier to handle the response. Eg. GET /orders?page=10 means get the list of orders on 10th page.</li>
 </ul>
+
+<h4>9) Versioning.</h4>
+The API Version is mandatory and we should not release an unversioned API. Use a simple ordinal number and avoid dot notation such as 1.2.
+We are using the URL for the API versioning starting with the letter "v".
