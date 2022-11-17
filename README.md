@@ -113,3 +113,10 @@ Example:
 }
 ```
 
+<h4>12) How to create a Rest API URL</h4>
+We should use the following formats for the URL.<br>
+<ul>
+   <li>https://{Domain name (:Port number)}/{A value indicating REST API}/{API version}/{path for identifying a resource}</li>
+   <li>https://{Domain name indicating REST API(:Port number)}/{API version}/{path for identifying a resource}</li>
+</ul>
+
