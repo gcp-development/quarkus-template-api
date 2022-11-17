@@ -66,4 +66,11 @@ The following are the important categorization of HTTP codes:<br>
 
 [camelCase](https://web.archive.org/web/20080411055228/http://www2.tech.purdue.edu/cit/Courses/CPT355/C_Sharp_Coding_Standards_and_Guidelines.asp) we need to make sure it is consistent across the application.
 
-
+<h4>8) Searching, sorting,filtering and pagination.</h4>
+All of these actions are simply the query on one dataset. There will be no new set of APIs to handle these actions. We need to append the query params with the GET method API.
+<ul>
+   <li> Sorting - In case, the client wants to get the sorted list of orders, the GET /ordersendpoint should accept multiple sort params in the query. E.g GET /orders?sort=rank_asc would sort the orders by its rank in ascending order.</li>
+   <li>Filtering - For filtering the dataset, we can pass various options through query params. E.g GET /orders?category=urgent&location=spain would filter the orders list data with the order category of urgent and where the location is Spain.</li>
+   <li>Searching - When searching for the orders name in orders list the API endpoint should be GET /orders?search=special.</li>
+   <li>Pagination - When the dataset is too large, we divide the data set into smaller chunks, which helps in improving the performance and is easier to handle the response. Eg. GET /orders?page=10 means get the list of orders on 10th page.</li>
+</ul>
