@@ -22,6 +22,17 @@ Essential Guides:<br>
 </ul>
 <hr>
 
+```bash
+{"id": 0,"title":"Moby Dick","author":"Herman Melville"}
+{"id": 0,"title":"Raven","author":"John Jacobs"}
+{"id": 0,"title":"In Cold Blood","author":"Truman Capote"}
+{"id": 0,"title":"Brave New World","author":"Aldous Huxley"}
+{"id": 0,"title":"Nineteen Eighty-Four","author":"George Orwell"}
+{"id": 0,"title":"The Art of War","author":"Sun-Tzu"}
+```
+
+<hr>
+
 ## Restful API design guidelines
 
 <h4>1) Use nouns for resource identification.</h4>
