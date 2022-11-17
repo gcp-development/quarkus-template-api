@@ -19,6 +19,7 @@ Why Quarkus?
 [Dev Services for OpenID Connect](https://quarkus.io/guides/security-openid-connect-dev-services)
 
 <hr>
+
 ## Restful API design guidelines
 
 <h4>1) Use nouns for resource identification.</h4>
