@@ -1,3 +1,24 @@
+## Quarkus
+
+[What is Quarkus?](https://quarkus.io/about/)<br>
+Quarkus is a Kubernetes-native Java framework tailored for GraalVM and HotSpot, crafted from best-of-breed Java libraries and standards.
+
+Why Quarkus?
+<ul>
+<li>Quarkus was designed around [Kubernetes-native](https://quarkus.io/kubernetes-native/) philosophies, optimizing for low memory usage and fast startup times.</li>
+<li>Quarkus was born in the reactive era. Quarkus, at its core, is based on a fully reactive and non-blocking architecture powered by [Eclipse Vert.x](https://vertx.io/). </li>
+</ul>
+
+
+[User Stories[]https://quarkus.io/blog/tag/user-story/
+[Building an application into a native image](https://quarkus.io/guides/building-native-image)
+[Kafka dev services](https://quarkus.io/guides/kafka-dev-services)
+[Dev Services for databases](https://quarkus.io/guides/datasource#dev-services-configuration-free-databases)
+[Redis dev services](https://quarkus.io/guides/redis-dev-services)
+[AMQP dev services](https://quarkus.io/guides/amqp-dev-services)
+[Dev Services for OpenID Connect](https://quarkus.io/guides/security-openid-connect-dev-services)
+
+<hr>
 ## Restful API design guidelines
 
 <h4>1) Use nouns for resource identification.</h4>
