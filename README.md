@@ -120,3 +120,10 @@ We should use the following formats for the URL.<br>
    <li>https://{Domain name indicating REST API(:Port number)}/{API version}/{path for identifying a resource}</li>
 </ul>
 
+Examples:
+
+```bash
+https://org.com/api/v1/orders/43
+https://api.org.com/v1/orders/89
+```
+
