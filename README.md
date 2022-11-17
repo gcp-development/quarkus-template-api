@@ -102,5 +102,14 @@ href is a complete URL that uniquely defines the resource.
 
 <h4>11) Handling ERROR JSON.</h4>
 We should always return the error message in its own set of field. A JSON error body should provide a few things for the developer – a useful error message, a unique error code and possibly a detailed description.
-    Example:
+
+Example:
+
+```bash
+{
+   "code": 666,
+   "message" : "java.lang.OutOfMemoryError: Java heap space",
+   "description" : "You should use .net core.... :)"
+}
+```
 
