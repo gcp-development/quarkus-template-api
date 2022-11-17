@@ -9,8 +9,7 @@ Why Quarkus?
 <li>Quarkus, at its core, is based on a fully reactive and non-blocking architecture powered by <a href="https://vertx.io/" target="_blank">Eclipse Vert.x</a>.</li>
 </ul>
 
-
-
+Essential Guides:
 [Building an application into a native image](https://quarkus.io/guides/building-native-image)<br>
 [Kafka dev services](https://quarkus.io/guides/kafka-dev-services)<br>
 [Dev Services for databases](https://quarkus.io/guides/datasource#dev-services-configuration-free-databases)<br>
