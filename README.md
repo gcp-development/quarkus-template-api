@@ -40,13 +40,14 @@ Accept Header
 application/json
 ```
 
+![image](https://user-images.githubusercontent.com/76512851/202450475-c15ea0b1-4174-4078-9e8a-ed36d63d8af1.png)
+
 Body
 ```bash
 {"id": 0,"title":"Moby Dick","author":"Herman Melville"}
 ```
 
-![image](https://user-images.githubusercontent.com/76512851/202450475-c15ea0b1-4174-4078-9e8a-ed36d63d8af1.png)
-
+![image](https://user-images.githubusercontent.com/76512851/202452756-8684d334-4d49-4a04-9431-c00a2bda3d99.png)
 
 
 
