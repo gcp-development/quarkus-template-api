@@ -29,14 +29,13 @@ URL address
 ```bash
 http://localhost:8080/books
 ```
-Headers
 
-Content-Type
+Content-Type Header
 ```bash
 application/json
 ```
 
-Accept
+Accept Header
 ```bash
 application/json
 ```
