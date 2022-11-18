@@ -60,7 +60,7 @@ Body
 URL address
 
 ```bash
-http://localhost:8080/books
+http://localhost:8080/books/bulk
 ```
 
 Content-Type Header
@@ -75,11 +75,13 @@ application/json
 
 Body
 ```bash
-{"id": 0,"title":"Raven","author":"John Jacobs"}
-{"id": 0,"title":"In Cold Blood","author":"Truman Capote"}
-{"id": 0,"title":"Brave New World","author":"Aldous Huxley"}
-{"id": 0,"title":"Nineteen Eighty-Four","author":"George Orwell"}
+[
+{"id": 0,"title":"Raven","author":"John Jacobs"},
+{"id": 0,"title":"In Cold Blood","author":"Truman Capote"},
+{"id": 0,"title":"Brave New World","author":"Aldous Huxley"},
+{"id": 0,"title":"Nineteen Eighty-Four","author":"George Orwell"},
 {"id": 0,"title":"The Art of War","author":"Sun-Tzu"}
+]
 ```
 
 ![image](https://user-images.githubusercontent.com/76512851/202676095-49073b15-25d4-4270-a5f3-d233cadaabbb.png)
