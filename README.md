@@ -144,7 +144,25 @@ http://localhost:8080/books/
 
 ![image](https://user-images.githubusercontent.com/76512851/202679874-0489a45c-8313-482c-80b6-1634cbf7f25c.png)
 
+### API versioning.
 
+URL address
+
+```bash
+http://localhost:8080/books/enhancedmediatype
+```
+
+Content-Type Header
+```bash
+application/org.microservice.api.v1.book+json;qs=0.5
+```
+
+Accept Header
+```bash
+application/org.microservice.api.v1.book+json;qs=0.5
+```
+
+![image](https://user-images.githubusercontent.com/76512851/202695072-6aeee6fa-233a-477d-b6bd-4c6caf070138.png)
 
 
 
