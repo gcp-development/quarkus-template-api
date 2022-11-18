@@ -20,6 +20,10 @@ Essential Guides:<br>
    <li><a href="https://quarkus.io/guides/security-openid-connect-dev-services" target="_blank">Dev Services for OpenID Connect</a></li>
    <li><a href="https://quarkus.io/guides/deploying-to-kubernetes" target="_blank">Deploying to kubernetes</a></li>
 </ul>
+
+Table of Contents:<br>
+Restful API design guidelines<br>
+Testing the Rest API with Postman and Intellij Community<br>
 <hr>
 
 ## Testing the Rest API with Postman and Intellij Community
