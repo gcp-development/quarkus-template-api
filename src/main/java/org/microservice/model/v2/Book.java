@@ -2,15 +2,12 @@ package org.microservice.model.v2;
 
 import javax.xml.bind.annotation.*;
 
-@XmlRootElement(name="org.microservice.model.v2.Book")
-@XmlType(name="org.microservice.model.v2.Book")
-@XmlAccessorType(XmlAccessType.FIELD)
 public class Book {
-    @XmlElement(name = "id")
+
     private int id;
-    @XmlElement(name = "title")
+
     private String title;
-    @XmlElement(name = "author")
+
     private String author;
 
     public Book() {

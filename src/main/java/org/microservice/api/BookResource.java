@@ -9,51 +9,6 @@ import java.util.*;
 public class BookResource {
     private static Map<Integer, org.microservice.model.v1.Book> library = new HashMap<Integer, org.microservice.model.v1.Book>();
 
-    @GET
-    @Path("/enhancedmediatype")
-    @Produces("application/org.microservice.api.v1.book+json;qs=0.5")
-    public Response getVersion1() {
-        org.microservice.model.v1.Book book;
-
-        book = new org.microservice.model.v1.Book(99, "title-version1", "author-version1");
-        return Response.ok(book).build();
-    }
-
-    @GET
-    @Path("/enhancedmediatype")
-    //@Produces({"application/json", "application/vnd.library.book.v2+json;qs=0.9"})
-    @Produces("application/org.microservice.api.v2.book+json;qs=0.9")
-    public Response getVersion2() {
-        org.microservice.model.v2.Book book;
-
-        book = new org.microservice.model.v2.Book(99, "title-version2", "author-version2");
-        return Response.ok(book).build();
-    }
-
-    @GET
-    @Produces({MediaType.APPLICATION_JSON})
-    public Response getBooks() {
-        List<org.microservice.model.v1.Book> books;
-        GenericEntity<List<org.microservice.model.v1.Book>> entity;
-
-        books = new ArrayList<org.microservice.model.v1.Book>(library.values());
-        entity = new GenericEntity<List<org.microservice.model.v1.Book>>(books) {
-        };
-        return Response.ok(entity).build();
-    }
-
-    @GET
-    @Path("/{key}")
-    @Produces({MediaType.APPLICATION_JSON})
-    public Response getBook(@PathParam("key") int key) {
-
-        if (library.containsKey(key)) {
-            return Response.ok(library.get(key)).build();
-        } else {
-            return Response.status(404).build();
-        }
-    }
-
     @POST
     @Consumes({MediaType.APPLICATION_JSON})
     public Response addBook(org.microservice.model.v1.Book book, @Context UriInfo uriInfo) {
@@ -72,6 +27,45 @@ public class BookResource {
         builder = uriInfo.getAbsolutePathBuilder();
         createdURI = builder.path(Integer.toString(createdEmployeeId)).build();
         return Response.created(createdURI).build();
+    }
+
+    @GET
+    @Path("/{key}")
+    @Produces({MediaType.APPLICATION_JSON})
+    public Response getBook(@PathParam("key") int key) {
+
+        if (library.containsKey(key)) {
+            return Response.ok(library.get(key)).build();
+        } else {
+            return Response.status(404).build();
+        }
+    }
+
+    @GET
+    @Produces({MediaType.APPLICATION_JSON})
+    public Response getBooks() {
+        List<org.microservice.model.v1.Book> books;
+        GenericEntity<List<org.microservice.model.v1.Book>> entity;
+
+        books = new ArrayList<org.microservice.model.v1.Book>(library.values());
+        entity = new GenericEntity<List<org.microservice.model.v1.Book>>(books) {
+        };
+        return Response.ok(entity).build();
+    }
+
+    @PUT
+    @Path("/{key}")
+    @Consumes({MediaType.APPLICATION_JSON})
+    public Response updateBook(@PathParam("key") int key, org.microservice.model.v1.Book book) {
+        int status = 0;
+
+        if (library.containsKey(key)) {
+            library.put(key, book);
+            status = 204;
+        } else {
+            status = 404;
+        }
+        return Response.status(status).build();
     }
 
     @POST
@@ -97,21 +91,6 @@ public class BookResource {
         return Response.created(createdURI).build();
     }
 
-    @PUT
-    @Path("/{key}")
-    @Consumes({MediaType.APPLICATION_JSON})
-    public Response updateBook(@PathParam("key") int key, org.microservice.model.v1.Book book) {
-        int status = 0;
-
-        if (library.containsKey(key)) {
-            library.put(key, book);
-            status = 204;
-        } else {
-            status = 404;
-        }
-        return Response.status(status).build();
-    }
-
     @DELETE
     @Path("/{key}")
     public Response deleteBook(@PathParam("key") int key) {
@@ -125,5 +104,25 @@ public class BookResource {
 
         library.clear();
         return Response.noContent().build();
+    }
+
+    @GET
+    @Path("/enhancedmediatype")
+    @Produces("application/org.microservice.api.v1.book+json;qs=0.5")
+    public Response getVersion1() {
+        org.microservice.model.v1.Book book;
+
+        book = new org.microservice.model.v1.Book(99, "title-version1", "author-version1");
+        return Response.ok(book).build();
+    }
+
+    @GET
+    @Path("/enhancedmediatype")
+    @Produces("application/org.microservice.api.v2.book+json;qs=0.9")
+    public Response getVersion2() {
+        org.microservice.model.v2.Book book;
+
+        book = new org.microservice.model.v2.Book(99, "title-version2", "author-version2");
+        return Response.ok(book).build();
     }
 }
