@@ -130,8 +130,15 @@ http://localhost:8080/books/2
 
 ![image](https://user-images.githubusercontent.com/76512851/202679454-dccff9a9-59e0-4609-8b29-320d766de511.png)
 
+### Delete all records.
 
+URL address
 
+```bash
+http://localhost:8080/books/
+```
+
+![image](https://user-images.githubusercontent.com/76512851/202679874-0489a45c-8313-482c-80b6-1634cbf7f25c.png)
 
 
 
