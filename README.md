@@ -120,7 +120,7 @@ application/json
 
 ![image](https://user-images.githubusercontent.com/76512851/202678440-d58209a3-f796-49a3-8163-4727e7942c73.png)
 
-### Update a record.
+### Delete a record.
 
 URL address
 
@@ -128,7 +128,8 @@ URL address
 http://localhost:8080/books/2
 ```
 
-![image](https://user-images.githubusercontent.com/76512851/202679055-26b9928a-ee02-4061-9894-884dfbd757d7.png)
+![image](https://user-images.githubusercontent.com/76512851/202679454-dccff9a9-59e0-4609-8b29-320d766de511.png)
+
 
 
 
