@@ -22,7 +22,11 @@ Essential Guides:<br>
 </ul>
 <hr>
 
-## Testing the Rest API with Postman
+## Testing the Rest API with Postman and Intellij Community
+
+This is a small test done with [Postman](https://www.postman.com/downloads/) and [Intellij Community](https://www.jetbrains.com/idea/download/#section=linux).
+
+![image](https://user-images.githubusercontent.com/76512851/202681293-33dd0567-6c1b-4554-ac8c-d11f8c7fc9fd.png)
 
 ### Add one record.
 
