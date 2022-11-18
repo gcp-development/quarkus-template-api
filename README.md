@@ -1,11 +1,12 @@
-# ->Work in progress<-
-Table of Contents:<br>
+# Quarkus Template Rest API
+## Table of Contents:<br>
+[Quarkus](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#quarkus)<br>
 [Restful API design guidelines](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#restful-api-design-guidelines)<br>
 [Testing the Rest API with Postman and Intellij Community](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#testing-the-rest-api-with-postman-and-intellij-community)<br>
 
 <hr>
 
-## Quarkus 
+## Quarkus
 
 [What is Quarkus?](https://quarkus.io/about/)<br>
 Quarkus is a Kubernetes-native Java framework tailored for [GraalVM](https://www.graalvm.org/) and [HotSpot](https://wiki.openjdk.org/display/HotSpot), crafted from best-of-breed Java libraries and standards.
