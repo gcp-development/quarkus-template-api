@@ -4,13 +4,11 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.*;
 import java.net.URI;
 import java.util.*;
-import javax.json.JsonArray;
-import javax.inject.Inject;
 
 @Path("/books")
 public class BookResource {
     private static Map<Integer, org.microservice.model.v1.Book> library = new HashMap<Integer, org.microservice.model.v1.Book>();
-    // Collection<String[]>,
+
     @GET
     @Path("/enhancedmediatype")
     @Produces("application/org.microservice.api.v1.book+json;qs=0.5")
@@ -33,7 +31,7 @@ public class BookResource {
     }
 
     @GET
-    @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+    @Produces({MediaType.APPLICATION_JSON})
     public Response getBooks() {
         List<org.microservice.model.v1.Book> books;
         GenericEntity<List<org.microservice.model.v1.Book>> entity;
@@ -46,7 +44,7 @@ public class BookResource {
 
     @GET
     @Path("/{key}")
-    @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+    @Produces({MediaType.APPLICATION_JSON})
     public Response getBook(@PathParam("key") int key) {
 
         if (library.containsKey(key)) {
@@ -57,7 +55,7 @@ public class BookResource {
     }
 
     @POST
-    @Consumes({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+    @Consumes({MediaType.APPLICATION_JSON})
     public Response addBook(org.microservice.model.v1.Book book, @Context UriInfo uriInfo) {
         UriBuilder builder;
         URI createdURI;
@@ -78,7 +76,7 @@ public class BookResource {
 
     @POST
     @Path("/bulk")
-    @Consumes({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+    @Consumes({MediaType.APPLICATION_JSON})
     public Response addBook(ArrayList<org.microservice.model.v1.Book> books, @Context UriInfo uriInfo) {
         UriBuilder builder;
         URI createdURI;
@@ -101,7 +99,7 @@ public class BookResource {
 
     @PUT
     @Path("/{key}")
-    @Consumes({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+    @Consumes({MediaType.APPLICATION_JSON})
     public Response updateBook(@PathParam("key") int key, org.microservice.model.v1.Book book) {
         int status = 0;
 

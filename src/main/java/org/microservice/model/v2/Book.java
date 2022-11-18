@@ -2,11 +2,15 @@ package org.microservice.model.v2;
 
 import javax.xml.bind.annotation.*;
 
-@XmlRootElement
-@XmlType(name="book.v2")
+@XmlRootElement(name="org.microservice.model.v2.Book")
+@XmlType(name="org.microservice.model.v2.Book")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Book {
+    @XmlElement(name = "id")
     private int id;
+    @XmlElement(name = "title")
     private String title;
+    @XmlElement(name = "author")
     private String author;
 
     public Book() {
@@ -20,7 +24,6 @@ public class Book {
         this.author = author;
     }
 
-    @XmlElement
     public int getId() {
         return this.id;
     }
@@ -29,7 +32,6 @@ public class Book {
         this.id = id;
     }
 
-    @XmlElement
     public String getTitle() {
         return this.title;
     }
@@ -38,7 +40,6 @@ public class Book {
         this.title = title;
     }
 
-    @XmlElement
     public String getAuthor() {
         return this.author;
     }
