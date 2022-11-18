@@ -152,17 +152,35 @@ URL address
 http://localhost:8080/books/enhancedmediatype
 ```
 
-Content-Type Header
+Content-Type Header for version 1
 ```bash
 application/org.microservice.api.v1.book+json;qs=0.5
 ```
 
-Accept Header
+Accept Header for version 1
 ```bash
 application/org.microservice.api.v1.book+json;qs=0.5
 ```
 
 ![image](https://user-images.githubusercontent.com/76512851/202695072-6aeee6fa-233a-477d-b6bd-4c6caf070138.png)
+
+URL address
+
+```bash
+http://localhost:8080/books/enhancedmediatype
+```
+
+Content-Type Header for version 2
+```bash
+application/org.microservice.api.v2.book+json;qs=0.9
+```
+
+Accept Header for version 2
+```bash
+application/org.microservice.api.v2.book+json;qs=0.9
+```
+
+![image](https://user-images.githubusercontent.com/76512851/202695995-662d87e1-df75-4662-9ab2-959e267dfcf9.png)
 
 
 
