@@ -102,6 +102,27 @@ application/json
 
 ### Update a record.
 
+URL address
+
+```bash
+http://localhost:8080/books/2
+```
+
+Content-Type Header
+```bash
+application/json
+```
+
+Accept Header
+```bash
+application/json
+```
+
+![image](https://user-images.githubusercontent.com/76512851/202678440-d58209a3-f796-49a3-8163-4727e7942c73.png)
+
+
+
+
 
 <hr>
 
