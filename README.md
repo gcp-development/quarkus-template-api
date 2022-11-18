@@ -86,6 +86,27 @@ Body
 
 ![image](https://user-images.githubusercontent.com/76512851/202676095-49073b15-25d4-4270-a5f3-d233cadaabbb.png)
 
+### Read all records.
+
+URL address
+
+```bash
+http://localhost:8080/books
+```
+
+Content-Type Header
+```bash
+application/json
+```
+
+Accept Header
+```bash
+application/json
+```
+
+![image](https://user-images.githubusercontent.com/76512851/202724984-72780494-c3b8-4cf8-b363-81f3d634e4cb.png)
+
+
 ### Search for one record.
 
 URL address
