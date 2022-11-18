@@ -24,6 +24,8 @@ Essential Guides:<br>
 
 ## Testing the Rest API with Postman
 
+### Add one record.
+
 URL address
 
 ```bash
@@ -49,10 +51,26 @@ Body
 
 ![image](https://user-images.githubusercontent.com/76512851/202452756-8684d334-4d49-4a04-9431-c00a2bda3d99.png)
 
+### Add records in bulk.
 
+URL address
 
 ```bash
-{"id": 0,"title":"Moby Dick","author":"Herman Melville"}
+http://localhost:8080/books
+```
+
+Content-Type Header
+```bash
+application/json
+```
+
+Accept Header
+```bash
+application/json
+```
+
+Body
+```bash
 {"id": 0,"title":"Raven","author":"John Jacobs"}
 {"id": 0,"title":"In Cold Blood","author":"Truman Capote"}
 {"id": 0,"title":"Brave New World","author":"Aldous Huxley"}
