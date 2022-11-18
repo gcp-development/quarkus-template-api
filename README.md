@@ -12,13 +12,14 @@ Why Quarkus?
 
 Essential Guides:<br>
 <ul>
+   <li><a href="https://quarkus.io/guides/getting-started-testing" target="_blank">Testing Your Application</a></li>
+   <li><a href="https://quarkus.io/guides/deploying-to-kubernetes" target="_blank">Deploying to kubernetes</a></li>
    <li><a href="https://quarkus.io/guides/building-native-image" target="_blank">Building an application into a native image</a></li>
    <li><a href="https://quarkus.io/guides/kafka-dev-services" target="_blank">Kafka dev services</a></li>
    <li><a href="https://quarkus.io/guides/datasource#dev-services-configuration-free-databases" target="_blank">Dev Services for databases</a></li>
    <li><a href="https://quarkus.io/guides/redis-dev-services" target="_blank">Redis dev services</a></li>
    <li><a href="https://quarkus.io/guides/amqp-dev-services" target="_blank">AMQP dev services</a></li>
    <li><a href="https://quarkus.io/guides/security-openid-connect-dev-services" target="_blank">Dev Services for OpenID Connect</a></li>
-   <li><a href="https://quarkus.io/guides/deploying-to-kubernetes" target="_blank">Deploying to kubernetes</a></li>
 </ul>
 
 Table of Contents:<br>
