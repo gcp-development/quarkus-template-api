@@ -82,6 +82,27 @@ Body
 
 ### Search for one record.
 
+URL address
+
+```bash
+http://localhost:8080/books/2
+```
+
+Content-Type Header
+```bash
+application/json
+```
+
+Accept Header
+```bash
+application/json
+```
+
+![image](https://user-images.githubusercontent.com/76512851/202677031-05aad6dc-6f1b-4664-a763-ad754f0aa35c.png)
+
+### Update a record.
+
+
 <hr>
 
 ## Restful API design guidelines
