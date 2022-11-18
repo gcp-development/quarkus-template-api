@@ -1,4 +1,10 @@
 # ->Work in progress<-
+Table of Contents:<br>
+[Restful API design guidelines](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#restful-api-design-guidelines)<br>
+[Testing the Rest API with Postman and Intellij Community](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#testing-the-rest-api-with-postman-and-intellij-community)<br>
+
+<hr>
+
 ## Quarkus 
 
 [What is Quarkus?](https://quarkus.io/about/)<br>
@@ -22,9 +28,6 @@ Essential Guides:<br>
    <li><a href="https://quarkus.io/guides/security-openid-connect-dev-services" target="_blank">Dev Services for OpenID Connect</a></li>
 </ul>
 
-Table of Contents:<br>
-[Restful API design guidelines](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#restful-api-design-guidelines)<br>
-[Testing the Rest API with Postman and Intellij Community](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#testing-the-rest-api-with-postman-and-intellij-community)<br>
 <hr>
 
 ## Restful API design guidelines
