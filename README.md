@@ -43,8 +43,8 @@ docker image ls
 docker build -f src/main/docker/Dockerfile.native.dev -t quarkus-template-api:1.0 .
 docker image ls
 docker run -i --rm -p 8080:8080 quarkus-template-api:v1.0
-docker tag quarkus-template-api:v1.0 bsilveira1974/quarkus-template-api:1.0
-docker push bsilveira1974/quarkus-template-api:1.0
+docker tag quarkus-template-api:1.0 {docker-hub-username}/quarkus-template-api:1.0
+docker push {docker-hub-username}/quarkus-template-api:1.0
 ```
 
 
