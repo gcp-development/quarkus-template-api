@@ -2,7 +2,7 @@
 
 ## Motivation
 
-[Microservices](https://martinfowler.com/articles/microservices.html) plays an essential part of my work since 2008. Together with [Kubernetes](https://kubernetes.io/docs/home/) (around 2014) , it’s possible to scale each service independently for granular control of workload performance. Though the Microservice Architecture and Kubernetes we have a significant number of native capacity-scaling approaches, that allows us to address complex problems in a very cost effective way. One word for [Anthos](https://cloud.google.com/anthos/docs/concepts/overview) due the fact is currently(2022/11) the only product that manages multiple clusters, which makes it the cherry on top of the cake.
+[Microservices](https://martinfowler.com/articles/microservices.html) plays an essential part of my work since 2008. Together with [Kubernetes](https://kubernetes.io/docs/home/) (around 2014) , it’s possible to scale each service independently for granular control of workload performance. Though the Microservice Architecture and Kubernetes we have a significant number of native capacity-scaling approaches, that allows us to address complex problems in a very cost effective way. One word for [Anthos](https://cloud.google.com/anthos/docs/concepts/overview) due the fact that is currently(2022/11) the only product that manages multiple clusters, which makes it the cherry on top of the cake.
 
 ## Table of Contents<br>
 [Quarkus](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#quarkus)<br>
