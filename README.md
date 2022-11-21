@@ -31,6 +31,20 @@ Essential Guides:<br>
 
 <hr>
 
+## Quarkus kubernetes-native
+
+```bash
+./mvnw package -Pnative
+docker image ls
+docker build -f src/main/docker/Dockerfile.native.dev -t quarkus-template-api:1.0 .
+docker image ls
+docker run -i --rm -p 8080:8080 quarkus-template-api:v1.0
+docker tag quarkus-template-api:v1.0 bsilveira1974/quarkus-template-api:1.0
+docker push bsilveira1974/quarkus-template-api:1.0
+```
+
+
+<hr>
 ## Restful API design guidelines
 
 <h4>1) Use nouns for resource identification.</h4>
