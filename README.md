@@ -33,6 +33,10 @@ Essential Guides:<br>
 
 ## Quarkus kubernetes-native
 
+[Dockerfile](https://docs.docker.com/engine/reference/builder/)
+
+[.dockerignore](https://docs.docker.com/engine/reference/builder/#dockerignore-file)
+
 ```bash
 ./mvnw package -Pnative
 docker image ls
@@ -42,6 +46,9 @@ docker run -i --rm -p 8080:8080 quarkus-template-api:v1.0
 docker tag quarkus-template-api:v1.0 bsilveira1974/quarkus-template-api:1.0
 docker push bsilveira1974/quarkus-template-api:1.0
 ```
+
+
+
 
 
 <hr>
@@ -366,3 +373,4 @@ References:<br>
 [Best Practices in API Design](https://swagger.io/blog/api-design/api-design-best-practices/)<br>
 [Best Practices in API Documentation](https://swagger.io/blog/api-documentation/best-practices-in-api-documentation/)<br>
 [Quarkus User Stories](https://quarkus.io/blog/tag/user-story/)<br>
+[Dockerfile Best Practices](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
