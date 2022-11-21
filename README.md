@@ -64,6 +64,13 @@ docker push {hub.docker}/quarkus-template-api:1.0
 
 ## Restful API design guidelines
 
+Design First or Code First API Development
+
+![image](https://user-images.githubusercontent.com/76512851/203150314-78105b67-7ae9-4cf8-a32e-0806b97611c4.png)
+
+
+
+
 <h4>1) Use nouns for resource identification.</h4>
    For an easy understanding we should use this structure for every resource:<br>
 <ul>
