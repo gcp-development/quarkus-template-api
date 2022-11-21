@@ -68,7 +68,9 @@ Design First or Code First API Development
 
 ![image](https://user-images.githubusercontent.com/76512851/203150314-78105b67-7ae9-4cf8-a32e-0806b97611c4.png)
 
+Design-First: This approach fundamentally means any API effort — whether one or many in a program — starts with a design process. In this model, APIs are defined in an iterative way that both humans and computers can understand — before any code is ever written. The goal is that every team speaks the same language, and every tool they use leverages the same API design. The crucial difference here compared to an API-first approach is that, while the API is incredibly important, the design process is what ensures all stakeholders are involved, and their needs are satisfied in the creation.
 
+API-First: This is an increasingly promoted approach. Basically, it means that your organization treats APIs as the core focus with the understanding that they are critical business assets upon which the organization operates. This process is initiated with a contract written in an API description language such as OpenAPI. There's nothing wrong with this way, and it's wise to standardize early across a platform or set of products. The problem is that the chosen language and its particulars often dominate and even limit a company's ability to scale and build for the future. If your API is the most important thing, what does that say about all the people developing it and/or consuming it?
 
 
 <h4>1) Use nouns for resource identification.</h4>
@@ -391,3 +393,4 @@ References:<br>
 [Best Practices in API Documentation](https://swagger.io/blog/api-documentation/best-practices-in-api-documentation/)<br>
 [Quarkus User Stories](https://quarkus.io/blog/tag/user-story/)<br>
 [Dockerfile Best Practices](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+[Swagger Docs](https://swagger.io/docs/)
