@@ -61,6 +61,7 @@ docker push {hub.docker}/quarkus-template-api:1.0
 
 
 <hr>
+
 ## Restful API design guidelines
 
 <h4>1) Use nouns for resource identification.</h4>
