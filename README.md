@@ -12,12 +12,12 @@ Knowing how to use Kubernetes and Microservice Architecture we are able in a con
 The proof of concept(PoC) developed creates an Rest API associated to an [container](https://kubernetes.io/docs/reference/glossary/?fundamental=true#term-container) to be deployed to a Kubernetes [cluster](https://kubernetes.io/docs/reference/glossary/?fundamental=true#term-cluster).
 
 ## Table of Contents<br>
-[Quarkus](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#quarkus)<br>
-[Proof of Concept](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#proof-of-concept)<br>
-[Source Code](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#docker-image)<br>
-[Docker image](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#docker-image)<br>
-[Testing the Rest API with Postman and Intellij Community](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#testing-the-rest-api-with-postman-and-intellij-community)<br>
-[Restful API design guidelines](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#restful-api-design-guidelines)<br>
+<li>[Quarkus](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#quarkus)</li>
+<li>[Proof of Concept](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#proof-of-concept)</li>
+<li>[Source Code](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#source-code)</li>
+<li>[Docker image](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#docker-image)</li>
+<li>[Testing the Rest API with Postman and Intellij Community](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#testing-the-rest-api-with-postman-and-intellij-community)</li>
+<li>[Restful API design guidelines](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#restful-api-design-guidelines)</li>
 
 <hr>
 
