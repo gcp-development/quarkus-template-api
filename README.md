@@ -261,7 +261,19 @@ Try it out
 The [quarkus-micro-image](https://quay.io/repository/quarkus/quarkus-micro-image?tab=tags&tag=2.0) [parent-image](https://docs.docker.com/glossary/#parent-image) is used to build the final image.<br>
 Note: [Dockerfile](https://docs.docker.com/engine/reference/builder/) and [.dockerignore](https://docs.docker.com/engine/reference/builder/#dockerignore-file)
 
-![image](https://user-images.githubusercontent.com/76512851/203110869-d7ed6f23-dc72-4e8b-a176-05841497bc68.png)
+```bash
+FROM quay.io/quarkus/quarkus-micro-image:2.0
+WORKDIR /work/
+RUN chown 1001 /work \
+    && chmod "g+rwX" /work \
+    && chown 1001:root /work
+COPY --chown=1001:root target/*-runner /work/application
+
+EXPOSE 8080
+USER 1001
+
+CMD ["./application", "-Dquarkus.http.host=0.0.0.0"]
+```
 
 Build the docker image.
 
