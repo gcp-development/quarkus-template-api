@@ -12,13 +12,16 @@ Knowing how to use Kubernetes and Microservice Architecture we are able in a con
 The proof of concept(PoC) developed creates an Rest API associated to an [container](https://kubernetes.io/docs/reference/glossary/?fundamental=true#term-container) to be deployed to a Kubernetes [cluster](https://kubernetes.io/docs/reference/glossary/?fundamental=true#term-cluster).
 
 ## Table of Contents<br>
-<li>[Quarkus](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#quarkus)</li>
-<li>[Proof of Concept](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#proof-of-concept)</li>
-<li>[Source Code](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#source-code)</li>
-<li>[Docker image](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#docker-image)</li>
-<li>[Testing the Rest API with Postman and Intellij Community](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#testing-the-rest-api-with-postman-and-intellij-community)</li>
-<li>[Restful API design guidelines](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#restful-api-design-guidelines)</li>
-
+<ul>
+<li><a href="https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#quarkus" target="_self">Quarkus</a></li>
+<li><a href="https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#proof-of-concept" target="_self">Proof of Concept</a></li>
+   <ul>
+      <li><a href="https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#source-code" target="_self">Source Code</a></li>
+      <li><a href="https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#docker-image" target="_self">Docker image</a></li>
+      <li><a href="https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#testing-the-rest-api-with-postman-and-intellij-community" target="_self">Testing the Rest API with Postman and Intellij Community</a></li>
+   </ul>
+<li><a href="https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#restful-api-design-guidelines" target="_self">Restful API design guidelines</a></li>
+</ul>
 <hr>
 
 ## Quarkus
