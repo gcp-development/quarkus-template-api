@@ -43,11 +43,11 @@ Essential Guides:<br>
 
 <hr>
 
-## Quarkus kubernetes-native
+## Proof of Concept
 
-### Rest API
+#### Rest API
 
-### Docker Image
+#### Docker Image
 
 The [quarkus-micro-image](https://quay.io/repository/quarkus/quarkus-micro-image?tab=tags&tag=2.0) [parent-image](https://docs.docker.com/glossary/#parent-image) is used to build the final image.
 Note: [Dockerfile](https://docs.docker.com/engine/reference/builder/) and [.dockerignore](https://docs.docker.com/engine/reference/builder/#dockerignore-file)
