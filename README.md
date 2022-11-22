@@ -639,9 +639,6 @@ Examples:
 https://org.com/api/v1/orders/43
 https://api.org.com/v1/orders/89
 ```
-<hr>
-
-
 
 <hr>
 
