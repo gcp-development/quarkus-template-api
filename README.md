@@ -5,11 +5,11 @@
 [Microservices](https://martinfowler.com/articles/microservices.html) plays an essential part of my work since 2008. Together with [Kubernetes](https://kubernetes.io/docs/home/) (around 2014) , it’s possible to scale each service independently for granular control of workload performance. Though the Microservice Architecture and Kubernetes we have a significant number of native capacity-scaling approaches, that allows us to address complex problems in a very cost effective way. 
 The Kubernetes landscape is not completed without [Anthos](https://cloud.google.com/anthos/docs/concepts/overview), due the fact that is currently(2022/11) the only product that manages multiple clusters, which makes it the cherry on top of the cake.(Obviously these scenarios with Anthos should be considered only for organizations of a certain dimension or complex Kubernetes workloads across different clouds providers.)
 
-The proof of concept(PoC) developed creates an Rest API associated to an [container](https://kubernetes.io/docs/reference/glossary/?fundamental=true#term-container) to be deployed to a Kubernetes [cluster](https://kubernetes.io/docs/reference/glossary/?fundamental=true#term-cluster).
-
 When developing an API strategy, one of the key rules is <b>start small think big</b>. Meaning we normally start with a couple of Rest APIs with few users and after one year we have an "non planned" API marketplace (API marketplace is a user-friendly public hub where API providers can publish APIs for developers and partners to consume).
 
 Knowing how to use Kubernetes and Microservice Architecture we are able in a controlled and cost effective way scale-up/down, to match our business demand without breaking the piggy bank. With this type of approach we can planned a [series funding round](https://www.seedready.org/resources/startup-funding-beginners-guide/) based in a flexible digital landscape at a reasonable cost.
+
+The proof of concept(PoC) developed creates an Rest API associated to an [container](https://kubernetes.io/docs/reference/glossary/?fundamental=true#term-container) to be deployed to a Kubernetes [cluster](https://kubernetes.io/docs/reference/glossary/?fundamental=true#term-cluster).
 
 ## Table of Contents<br>
 [Quarkus](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#quarkus)<br>
