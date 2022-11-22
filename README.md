@@ -508,7 +508,7 @@ Design First
 
 ![image](https://user-images.githubusercontent.com/76512851/203150314-78105b67-7ae9-4cf8-a32e-0806b97611c4.png)
 
-Design-First: This approach fundamentally means any API effort — whether one or many in a program — starts with a design process. In this model, APIs are defined in an iterative way that both humans and computers can understand — before any code is ever written. The goal is that every team speaks the same language, and every tool they use leverages the same API design. The crucial difference here compared to an [others approachs](https://swagger.io/resources/articles/adopting-an-api-first-approach/) is that the design process is what ensures all stakeholders are involved, and their needs are satisfied in the creation.
+Design-First: This approach fundamentally means any API effort — whether one or many in a program — starts with a design process. In this model, APIs are defined in an iterative way that both humans and computers can understand — before any code is ever written. The goal is that every team speaks the same language, and every tool they use leverages the same API design. The crucial difference here compared to [others approaches](https://swagger.io/resources/articles/adopting-an-api-first-approach/) is that the design process is what ensures all stakeholders are involved, and their needs are satisfied in the creation.
 
 <h4>1) Use nouns for resource identification.</h4>
    For an easy understanding we should use this structure for every resource:<br>
