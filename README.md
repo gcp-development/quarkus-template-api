@@ -66,6 +66,10 @@ Execute the project and right-click in the endpoint produced.
 
 #### Open the Dev UI
 
+![image](https://user-images.githubusercontent.com/76512851/203346985-19251406-6c7f-4815-ad11-1e12c905a06c.png)
+
+#### Open the unit tests
+
 <hr>
 
 #### Docker Image
