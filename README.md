@@ -9,7 +9,7 @@ The proof of concept(PoC) developed creates an Rest API associated to an [contai
 
 When developing an API strategy, one of the key rules is <b>start small think big</b>. Meaning we normally start with a couple of Rest APIs with few users and after one year we have an "non planned" API marketplace (API marketplace is a user-friendly public hub where API providers can publish APIs for developers and partners to consume).
 
-Knowing how to use Kubernetes and Microservice Architecture we are able in a controlled and cost effective way, scale-up/down to match our business demand without breaking the piggy bank. With this type of approach we can planned a [series funding round](https://www.seedready.org/resources/startup-funding-beginners-guide/) based in a flexible digital landscape at a reasonable cost.
+Knowing how to use Kubernetes and Microservice Architecture we are able in a controlled and cost effective way scale-up/down, to match our business demand without breaking the piggy bank. With this type of approach we can planned a [series funding round](https://www.seedready.org/resources/startup-funding-beginners-guide/) based in a flexible digital landscape at a reasonable cost.
 
 ## Table of Contents<br>
 [Quarkus](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#quarkus)<br>
