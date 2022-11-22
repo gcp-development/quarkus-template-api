@@ -57,7 +57,7 @@ This proof of concept(PoC) developed creates an Rest API associated to an [conta
 
 #### Execute the project
 
-Execute the project and right-click in the endpoint produced.
+Execute the project and right-click anywhere inside of the the maven run tile.
 
 ![image](https://user-images.githubusercontent.com/76512851/203345483-4e655ec7-b310-482e-a8d6-186a951cda5d.png)
 
@@ -68,7 +68,7 @@ Execute the project and right-click in the endpoint produced.
 
 This screen will give us an overview of our Rest API developed.
 
-![image](https://user-images.githubusercontent.com/76512851/203346985-19251406-6c7f-4815-ad11-1e12c905a06c.png)
+![image](https://user-images.githubusercontent.com/76512851/203379033-261e1f67-8e4c-4420-88f3-012f1f36a64d.png)
 
 For instance verify the unit tests result.
 
@@ -77,6 +77,14 @@ For instance verify the unit tests result.
 Test Results
 
 ![image](https://user-images.githubusercontent.com/76512851/203348604-f52e2e19-6148-4aea-8218-226dde00ee1b.png)
+
+For instance onpen the swagger-ui.
+
+![image](https://user-images.githubusercontent.com/76512851/203380172-f02f0510-c03f-417b-bc3c-601b8d333a19.png)
+
+Swagger-ui
+
+![image](https://user-images.githubusercontent.com/76512851/203380391-11b0dbfe-7300-4600-a059-d381ff674d49.png)
 
 <hr>
 
