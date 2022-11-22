@@ -45,11 +45,12 @@ Essential Guides:<br>
 
 ## Quarkus kubernetes-native
 
-[Dockerfile](https://docs.docker.com/engine/reference/builder/)
+### Rest API
 
-[.dockerignore](https://docs.docker.com/engine/reference/builder/#dockerignore-file)
+### Docker Image
 
-[hub.docker](https://hub.docker.com/)
+The [quarkus-micro-image](https://quay.io/repository/quarkus/quarkus-micro-image?tab=tags&tag=2.0) [parent-image](https://docs.docker.com/glossary/#parent-image) is used to build the final image.
+Note: [Dockerfile](https://docs.docker.com/engine/reference/builder/) and [.dockerignore](https://docs.docker.com/engine/reference/builder/#dockerignore-file)
 
 ![image](https://user-images.githubusercontent.com/76512851/203110869-d7ed6f23-dc72-4e8b-a176-05841497bc68.png)
 
@@ -70,15 +71,14 @@ docker run -i --rm -p 8080:8080 quarkus-template-api:1.0
 
 ![image](https://user-images.githubusercontent.com/76512851/203319623-0ee42cb4-99ae-4703-9dba-a0237392c9b6.png)
 
+Push the image to [hub.docker](https://hub.docker.com/)
 
 ```bash
 docker tag quarkus-template-api:1.0 {hub.docker}/quarkus-template-api:1.0
 docker push {hub.docker}/quarkus-template-api:1.0
 ```
 
-
-
-
+![image](https://user-images.githubusercontent.com/76512851/203325814-7fce827b-412e-4bc9-bbd9-2c27e1c1cd6d.png)
 
 <hr>
 
