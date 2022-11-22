@@ -258,8 +258,18 @@ Try it out
 
 #### Docker Image
 
+![image](https://user-images.githubusercontent.com/76512851/203414467-6da0897d-2f36-4307-a0dc-17928bd8ec56.png)
+
+Note:Image from Quarkus: [The Black Swan of Java?](https://www.jug.ch/events/slides/200430_jugch_Quarkus_-_Black_Swan_of_Java.pdf)
+
 The [quarkus-micro-image](https://quay.io/repository/quarkus/quarkus-micro-image?tab=tags&tag=2.0) [parent-image](https://docs.docker.com/glossary/#parent-image) is used to build the final image.<br>
-Note: [Dockerfile](https://docs.docker.com/engine/reference/builder/) and [.dockerignore](https://docs.docker.com/engine/reference/builder/#dockerignore-file)
+
+[.dockerignore](https://docs.docker.com/engine/reference/builder/#dockerignore-file)
+```bash
+target
+```
+
+[Dockerfile](https://docs.docker.com/engine/reference/builder/)
 
 ```bash
 FROM quay.io/quarkus/quarkus-micro-image:2.0
