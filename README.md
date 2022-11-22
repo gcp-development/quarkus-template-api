@@ -13,8 +13,9 @@ The proof of concept(PoC) developed creates an Rest API associated to an [contai
 
 ## Table of Contents<br>
 [Quarkus](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#quarkus)<br>
-[Restful API design guidelines](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#restful-api-design-guidelines)<br>
+Proof of Concept<br>
 [Testing the Rest API with Postman and Intellij Community](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#testing-the-rest-api-with-postman-and-intellij-community)<br>
+[Restful API design guidelines](https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#restful-api-design-guidelines)<br>
 
 <hr>
 
@@ -49,7 +50,7 @@ Essential Guides:<br>
 
 #### Docker Image
 
-The [quarkus-micro-image](https://quay.io/repository/quarkus/quarkus-micro-image?tab=tags&tag=2.0) [parent-image](https://docs.docker.com/glossary/#parent-image) is used to build the final image.
+The [quarkus-micro-image](https://quay.io/repository/quarkus/quarkus-micro-image?tab=tags&tag=2.0) [parent-image](https://docs.docker.com/glossary/#parent-image) is used to build the final image.<br>
 Note: [Dockerfile](https://docs.docker.com/engine/reference/builder/) and [.dockerignore](https://docs.docker.com/engine/reference/builder/#dockerignore-file)
 
 ![image](https://user-images.githubusercontent.com/76512851/203110869-d7ed6f23-dc72-4e8b-a176-05841497bc68.png)
