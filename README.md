@@ -49,6 +49,10 @@ Essential Guides:<br>
 
 #### Rest API
 
+This code was develop using [Intellij Community](https://www.jetbrains.com/idea/download/#section=linux) with the [quarkus-tools](https://plugins.jetbrains.com/plugin/13234-quarkus-tools) plugin in a [Ubuntu 22.04.1 LTS (Jammy Jellyfish)](https://releases.ubuntu.com/22.04/).
+
+
+
 #### Docker Image
 
 The [quarkus-micro-image](https://quay.io/repository/quarkus/quarkus-micro-image?tab=tags&tag=2.0) [parent-image](https://docs.docker.com/glossary/#parent-image) is used to build the final image.<br>
