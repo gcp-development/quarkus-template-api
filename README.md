@@ -9,8 +9,6 @@ When developing an API strategy, one of the key rules is <b>start small think bi
 
 Knowing how to use Kubernetes and Microservice Architecture we are able in a controlled and cost effective way scale-up/down, to match our business demand without breaking the piggy bank. With this type of approach we can planned a [series funding round](https://www.seedready.org/resources/startup-funding-beginners-guide/) based in a flexible digital landscape at a reasonable cost.
 
-The proof of concept(PoC) developed creates an Rest API associated to an [container](https://kubernetes.io/docs/reference/glossary/?fundamental=true#term-container) to be deployed to a Kubernetes [cluster](https://kubernetes.io/docs/reference/glossary/?fundamental=true#term-cluster).
-
 ## Table of Contents<br>
 <ul>
 <li><a href="https://github.com/gcp-development/quarkus-template-api/blob/main/README.md#quarkus" target="_self">Quarkus</a></li>
@@ -53,11 +51,11 @@ Essential Guides:<br>
 
 #### Source Code
 
-This code was develop using [Intellij Community](https://www.jetbrains.com/idea/download/#section=linux) with the [quarkus-tools](https://plugins.jetbrains.com/plugin/13234-quarkus-tools) plugin in a [Ubuntu 22.04.1 LTS (Jammy Jellyfish)](https://releases.ubuntu.com/22.04/).
-
+This proof of concept(PoC) developed creates an Rest API associated to an [container](https://kubernetes.io/docs/reference/glossary/?fundamental=true#term-container) to be deployed to a Kubernetes [cluster](https://kubernetes.io/docs/reference/glossary/?fundamental=true#term-cluster). This code was develop using [Intellij Community](https://www.jetbrains.com/idea/download/#section=linux) with the [quarkus-tools](https://plugins.jetbrains.com/plugin/13234-quarkus-tools) plugin in a [Ubuntu 22.04.1 LTS (Jammy Jellyfish)](https://releases.ubuntu.com/22.04/).
 
 ![image](https://user-images.githubusercontent.com/76512851/203339810-c1aaca7b-c54d-4e2a-87c9-eef016d42d12.png)
 
+<hr>
 
 #### Docker Image
 
