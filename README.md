@@ -64,6 +64,170 @@ Execute the project and right-click anywhere inside of the the maven run tile.
 
 #### Open the Application
 
+![image](https://user-images.githubusercontent.com/76512851/203411672-6b9eae1d-2712-420b-a8a5-45423ebc55e7.png)
+
+#### OpenAPI specification
+
+```bash
+{
+  "openapi" : "3.0.3",
+  "info" : {
+    "title" : "quarkus-template-api API",
+    "version" : "1.0.0-SNAPSHOT"
+  },
+  "paths" : {
+    "/books" : {
+      "get" : {
+        "tags" : [ "Book Resource" ],
+        "responses" : {
+          "200" : {
+            "description" : "OK"
+          }
+        }
+      },
+      "post" : {
+        "tags" : [ "Book Resource" ],
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/Book"
+              }
+            }
+          }
+        },
+        "responses" : {
+          "200" : {
+            "description" : "OK"
+          }
+        }
+      },
+      "delete" : {
+        "tags" : [ "Book Resource" ],
+        "responses" : {
+          "200" : {
+            "description" : "OK"
+          }
+        }
+      }
+    },
+    "/books/bulk" : {
+      "post" : {
+        "tags" : [ "Book Resource" ],
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "type" : "array",
+                "items" : {
+                  "$ref" : "#/components/schemas/Book"
+                }
+              }
+            }
+          }
+        },
+        "responses" : {
+          "200" : {
+            "description" : "OK"
+          }
+        }
+      }
+    },
+    "/books/enhancedmediatype" : {
+      "get" : {
+        "tags" : [ "Book Resource" ],
+        "responses" : {
+          "200" : {
+            "description" : "OK"
+          }
+        }
+      }
+    },
+    "/books/{key}" : {
+      "get" : {
+        "tags" : [ "Book Resource" ],
+        "parameters" : [ {
+          "name" : "key",
+          "in" : "path",
+          "required" : true,
+          "schema" : {
+            "format" : "int32",
+            "type" : "integer"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "OK"
+          }
+        }
+      },
+      "put" : {
+        "tags" : [ "Book Resource" ],
+        "parameters" : [ {
+          "name" : "key",
+          "in" : "path",
+          "required" : true,
+          "schema" : {
+            "format" : "int32",
+            "type" : "integer"
+          }
+        } ],
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/Book"
+              }
+            }
+          }
+        },
+        "responses" : {
+          "200" : {
+            "description" : "OK"
+          }
+        }
+      },
+      "delete" : {
+        "tags" : [ "Book Resource" ],
+        "parameters" : [ {
+          "name" : "key",
+          "in" : "path",
+          "required" : true,
+          "schema" : {
+            "format" : "int32",
+            "type" : "integer"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "OK"
+          }
+        }
+      }
+    }
+  },
+  "components" : {
+    "schemas" : {
+      "Book" : {
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "format" : "int32",
+            "type" : "integer"
+          },
+          "title" : {
+            "type" : "string"
+          },
+          "author" : {
+            "type" : "string"
+          }
+        }
+      }
+    }
+  }
+}
+```
+
 #### Open the Dev UI
 
 This screen will give us an overview of our Rest API developed.
