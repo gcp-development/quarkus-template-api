@@ -55,6 +55,17 @@ This proof of concept(PoC) developed creates an Rest API associated to an [conta
 
 ![image](https://user-images.githubusercontent.com/76512851/203339810-c1aaca7b-c54d-4e2a-87c9-eef016d42d12.png)
 
+#### Execute the project
+
+Execute the project and right-click in the endpoint produced.
+
+![image](https://user-images.githubusercontent.com/76512851/203345483-4e655ec7-b310-482e-a8d6-186a951cda5d.png)
+
+
+#### Open the Application
+
+#### Open the Dev UI
+
 <hr>
 
 #### Docker Image
