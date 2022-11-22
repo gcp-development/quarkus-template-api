@@ -86,6 +86,9 @@ Swagger-ui
 
 ![image](https://user-images.githubusercontent.com/76512851/203380391-11b0dbfe-7300-4600-a059-d381ff674d49.png)
 
+Try it out
+![image](https://user-images.githubusercontent.com/76512851/203404811-57048ba0-d771-4a07-a771-baabe51811c0.png)
+
 <hr>
 
 #### Docker Image
