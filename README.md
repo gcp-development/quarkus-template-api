@@ -1,4 +1,4 @@
-# Quarkus Template Rest API (Work in progress)
+# Quarkus Template Rest API
 
 ## Motivation
 
