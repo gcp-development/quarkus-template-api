@@ -66,9 +66,17 @@ Execute the project and right-click in the endpoint produced.
 
 #### Open the Dev UI
 
+This screen will give us an overview of our Rest API developed.
+
 ![image](https://user-images.githubusercontent.com/76512851/203346985-19251406-6c7f-4815-ad11-1e12c905a06c.png)
 
-#### Open the unit tests
+For instance verify the unit tests result.
+
+![image](https://user-images.githubusercontent.com/76512851/203348320-0d9963bd-5e3a-4b6e-85b1-9863f877d768.png)
+
+Test Results
+
+![image](https://user-images.githubusercontent.com/76512851/203348604-f52e2e19-6148-4aea-8218-226dde00ee1b.png)
 
 <hr>
 
