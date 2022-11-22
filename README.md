@@ -260,7 +260,7 @@ Try it out
 
 Quarkus adopts the container first approach. This approach is optimized for low memory usage and fast startup times in areas like build time metadata processing and reduction in reflection usage. 
 
-Quarkus application load steps.
+<b>Quarkus application load steps.</b>
 
 ![image](https://user-images.githubusercontent.com/76512851/203414467-6da0897d-2f36-4307-a0dc-17928bd8ec56.png)
 
