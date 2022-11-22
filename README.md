@@ -53,12 +53,16 @@ Essential Guides:<br>
 
 ![image](https://user-images.githubusercontent.com/76512851/203110869-d7ed6f23-dc72-4e8b-a176-05841497bc68.png)
 
+
+![image](https://user-images.githubusercontent.com/76512851/203319182-e96feeb8-1b35-4b97-91a1-9fb80ebee0e6.png)
+
 ```bash
 ./mvnw package -Pnative
 docker build -f src/main/docker/Dockerfile.native.dev -t quarkus-template-api:1.0 .
 docker run -i --rm -p 8080:8080 quarkus-template-api:1.0
 ```
 
+![image](https://user-images.githubusercontent.com/76512851/203319623-0ee42cb4-99ae-4703-9dba-a0237392c9b6.png)
 
 
 ```bash
