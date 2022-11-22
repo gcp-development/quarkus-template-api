@@ -78,7 +78,7 @@ docker tag quarkus-template-api:1.0 {hub.docker}/quarkus-template-api:1.0
 docker push {hub.docker}/quarkus-template-api:1.0
 ```
 
-![image](https://user-images.githubusercontent.com/76512851/203325814-7fce827b-412e-4bc9-bbd9-2c27e1c1cd6d.png)
+![image](https://user-images.githubusercontent.com/76512851/203326130-e2f5e0c0-a3e1-46b7-9c12-d02e771eb0a0.png)
 
 <hr>
 
