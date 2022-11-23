@@ -242,7 +242,7 @@ Test Results
 
 ![image](https://user-images.githubusercontent.com/76512851/203348604-f52e2e19-6148-4aea-8218-226dde00ee1b.png)
 
-For instance onpen the swagger-ui.
+For instance open the swagger-ui.
 
 ![image](https://user-images.githubusercontent.com/76512851/203380172-f02f0510-c03f-417b-bc3c-601b8d333a19.png)
 
